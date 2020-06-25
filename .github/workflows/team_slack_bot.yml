@@ -2,7 +2,7 @@ name: Team Open PR Counts
 
 on:
   schedule:
-    - cron:  '0 3 * * 1-5'
+    - cron:  '0 15 * * 1-5'
 
 jobs:
   open-pr-stats:
